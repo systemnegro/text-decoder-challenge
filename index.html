@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Text decoder</title>
+</head>
+<header>
+    <img src="assets/logo.svg" alt="">
+</header>
+
+<body>
+    <main class="container">
+
+        <section class="container__request">
+
+            <textarea name="txt" id="txt" placeholder="Digite seu texto" maxlength="400" required></textarea>
+            <div class="alert">
+                <img src="assets/exclamation.svg" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="container__buttons">
+                <button type="button" class="encrypt">Criptografar</button>
+                <button type="button" class="decrypt">Descriptorgrafar</button>
+            </div>
+        </section>
+
+        <section class="container__result">
+            <div>
+                <img id="image" src="assets/search.svg" alt="">
+                <p><strong>Nenhuma mensagem encontrada</strong></p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <p id="result"></p>
+            <button type="button" class="copy">Copiar</button>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Camilo Almeida</p>
+    </footer>
+</body>
+
+</html>
