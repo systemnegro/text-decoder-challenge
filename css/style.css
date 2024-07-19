@@ -86,7 +86,7 @@ textarea::placeholder {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     color: var(--gray400);
-    word-break: break-all;
+    word-break: break-word;
     hyphens: auto;
 }
 
