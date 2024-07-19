@@ -80,14 +80,14 @@ textarea::placeholder {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    word-break: break-all;
-    hyphens: auto;
 }
 
 #result {
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     color: var(--gray400);
+    word-break: break-all;
+    hyphens: auto;
 }
 
 .copy {
